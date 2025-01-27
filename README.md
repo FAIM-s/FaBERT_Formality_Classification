@@ -5,6 +5,8 @@ This repository includes notebooks for finetuning FaBERT model in formality dete
 
 [![View on Hugging Face](https://img.shields.io/badge/Hugging%20Face-Model%20Page-yellow)](https://huggingface.co/FAIMs/fabert_formality_classifier/tree/main)
 
+[View on Hugging Face](https://huggingface.co/FAIMs/fabert_formality_classifier/tree/main).
+
 Fabert Formality Classifier is a pre-trained model designed to classify the formality level of text. This model can be used in applications like sentiment analysis, content moderation, academic writing assistance, and more.
 
 ## Features
@@ -39,5 +41,3 @@ model = AutoModelForSequenceClassification.from_pretrained("FAIMs/fabert_formali
 Contributions to improve the model or its documentation are welcome. Please feel free to open an issue or submit a pull request on the corresponding repository.
 
 ---
-
-For questions or further assistance, refer to the [Hugging Face page](https://huggingface.co/FAIMs/fabert_formality_classifier/tree/main).
