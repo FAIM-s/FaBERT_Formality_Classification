@@ -1,13 +1,12 @@
-# Fabert_Formality_Classifier
-This repository includes notebooks for finetuning FaBERT model in formality detection task and how to get inference from finetuned model
-
-# Fabert Formality Classifier
+# FaBERT Formality Classifier
 
 [![View on Hugging Face](https://img.shields.io/badge/Hugging%20Face-Model%20Page-yellow)](https://huggingface.co/FAIMs/fabert_formality_classifier/tree/main)
 
-[View on Hugging Face](https://huggingface.co/FAIMs/fabert_formality_classifier/tree/main).
+This repository includes notebooks for finetuning the FaBERT model in the formality detection task and how to get inferences from the finetuned model.
 
-Fabert Formality Classifier is a pre-trained model designed to classify the formality level of text. This model can be used in applications like sentiment analysis, content moderation, academic writing assistance, and more.
+[View on Hugging Face](https://huggingface.co/FAIMs/fabert_formality_classifier/tree/main)
+
+The Fabert Formality Classifier is a pre-trained model designed to classify the formality level of text. It can be used in sentiment analysis, content moderation, academic writing assistance, and more.
 
 ## Features
 
@@ -17,7 +16,7 @@ Fabert Formality Classifier is a pre-trained model designed to classify the form
 
 ## Installation
 
-To use the model, you need the `transformers` library from Hugging Face. You can install it via pip:
+You need the `transformers` library from Hugging Face to use the model. You can install it via pip:
 
 ```bash
 pip install transformers
@@ -38,6 +37,6 @@ model = AutoModelForSequenceClassification.from_pretrained("FAIMs/fabert_formali
 
 ## Contributions
 
-Contributions to improve the model or its documentation are welcome. Please feel free to open an issue or submit a pull request on the corresponding repository.
+We want you to know that contributions to improve the model or its documentation are welcome. Please feel free to open an issue or submit a pull request on the corresponding repository.
 
 ---
