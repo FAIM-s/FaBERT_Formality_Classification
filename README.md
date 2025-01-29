@@ -30,8 +30,8 @@ Here's a quick example of how to load and use the model:
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 # Load tokenizer and model
-tokenizer = AutoTokenizer.from_pretrained("FAIMs/fabert_formality_classifier")
-model = AutoModelForSequenceClassification.from_pretrained("FAIMs/fabert_formality_classifier")
+tokenizer = AutoTokenizer.from_pretrained("faimlab/fabert_formality_classifier")
+model = AutoModelForSequenceClassification.from_pretrained("faimlab/fabert_formality_classifier")
 
 ```
 
